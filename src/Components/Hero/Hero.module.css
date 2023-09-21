@@ -1,0 +1,15 @@
+.hero {
+  background-color: var(--color-black);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+/* .hero {
+  position: fixed;
+  top: 80px;
+  left: 0;
+  width: 100%;
+} */

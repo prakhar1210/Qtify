@@ -1,14 +1,15 @@
 import React from 'react'
-import Logo from '../../assets/logoImage.png';
-import style from '../Navbar/Navbar.module.css';
-import Button from './Button/Button';
+import styles from './Navbar.module.css';
+import Button from '../Button/Button';
+import Logo from '../Logo/Logo';
+import Search from '../Search/Search';
 
 const Navbar = () => {
   return (
-    <nav style={style.navbar}>
-        <Logo />
-
-        <Button />
+    <nav className={styles.navbar}>
+        <Logo/>
+        <Search/>
+        <Button children="Give Feedback" />
     </nav>
   )
 }
